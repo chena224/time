@@ -1,5 +1,5 @@
 # 共享单车小时级时序预测
-Kaggle Bike Sharing Demand 时序预测项目，用于简历项目展示。
+Kaggle Bike Sharing Demand 时序预测项目
 任务：基于连续24小时历史时序数据，预测未来24小时逐小时共享单车租赁数量。
 
 ## 项目介绍
@@ -53,7 +53,7 @@ Holdout 验证集最优指标：
 
 Python, Pandas, NumPy, Scikit-learn, PyTorch, XGBoost, Matplotlib
 
-## 亮点（简历可直接摘抄）
+
 
 1. 时序数据集**时间顺序切分训练 / 验证集**，杜绝数据泄露，符合时序预测工程规范
 2. 搭建 Encoder-Decoder LSTM 自回归时序预测框架，Teacher-Forcing 训练
