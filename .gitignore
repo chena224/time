@@ -1,0 +1,19 @@
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# outputs 里面大模型文件
+outputs/*.pt
+outputs/*.pth
+
+# logs
+*.log
+
+# jupyter
+.ipynb_checkpoints/
+
+# os
+.DS_Store
+Thumbs.db
